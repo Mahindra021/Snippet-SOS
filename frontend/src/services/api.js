@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://snippet-sos-backend.onrender.com',
+  baseURL: 'https://snippet-sos-backend.onrender.com/api',
   headers: { 'Content-Type': 'application/json' },
 });
 
